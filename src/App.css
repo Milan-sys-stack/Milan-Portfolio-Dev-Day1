@@ -6,9 +6,12 @@
   /*background: linear-gradient(to right, #de6161, #2657eb);*/
 }
 
-.custom-navbar-brand {
-  color: purple;
+.custom-row{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
+
 
 
 

@@ -29,6 +29,8 @@ export const Hero = () => {
       fontWeight : 'bold',
       fontSize: '40px',
 
+
+
     };
 
 
@@ -36,7 +38,7 @@ export const Hero = () => {
         <> 
          <div className="hero">
         <nav className="navbar navbar-expand-md bg-none">
-          <div className="container">
+          <div className="container custom-container">
           <a className="navbar-brand" href="#" style={customStyle}>Milan G.</a>
 
 
@@ -64,33 +66,44 @@ export const Hero = () => {
         </nav>
 
 
-
-        <div className="container">
-          <div className="row mt-5 py-3">
-            <div className="col-md-6 text-center order-md-2">
-              <img src="assets/my.png" width="80%" alt="" />
-            </div>
-            
-            <TypeAnimation
-              style={{ whiteSpace: 'pre-line', height: '195px', display: 'block' }}
+{/* This is for image*/}
+        <div className="container  ">
+        <div className="row  mt-1 py-3 ">
+          {/* This is for paragraph*/}
+          <div className="col-md-6  font-weight-bold display-6 ">
+          <TypeAnimation
+              style={{ whiteSpace: 'pre-line', height: '255px', display: 'block' }}
               sequence={[
               
             `
-              hi 👋 i'm 
+              Hi 👋
+              I'm Milan,
+              Full Stack Developer
+              I love solving problems with code.`,
               
-             
-                I love codiong and solving problems with code.
-              `,
               1000,
               ``,
               ]}
               repeat = {Infinity}
               />
-              <button className="btn btn-danger">Download Resume</button>
-            </div>
           </div>
+
+
+          <div className="col-md-6  order-md-2 custom-row">
+              <img src="assets/my.png" width="70%" alt="" className="img-fluid" />
+              </div>
         </div>
-      
+        <div className="row mt-5 py-3">
+           <div className="col-md-12 text-left ">
+            <button className="btn btn-danger">Download Resume</button>
+            </div>
+            </div>
+
+
+
+        </div>
+          
+          </div>      
          </>
     )
 }
