@@ -3,6 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import { Navigation } from './Components/Navigation';
 import { Hero } from './Components/Hero';
+import { Banner } from './Components/Banner';
 import { Skills } from './Components/Skills';
 import { Projects } from './Components/Projects';
 import { AboutMe } from './Components/AboutMe';
@@ -14,6 +15,7 @@ function App() {
     <div>
         {/* <Navigation/> */}
         <Hero/>
+        <Banner/>
         <Skills/>
         <Projects/>
         <AboutMe/>
