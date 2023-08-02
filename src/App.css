@@ -34,7 +34,8 @@
 .Banner-container{
   border-radius: 50px;
   background: #8C52FF;
-  justify-content: space-between;
+
+
 
 
 
@@ -48,6 +49,16 @@
   flex-wrap: wrap;
   font-weight:bolder;
 }
+.Banner-icons{
+  
+  display: flex;
+  font-size: 3rem;
+
+
+
+}
+
+
 .icons i {
   font-size: 5rem;
 }
@@ -64,7 +75,7 @@
 
 /* Project section */
 .projects {
-  background: rgba(231, 213, 118, 0.41);
+  background: #8C52FF;
 }
 
 /* contact me section */

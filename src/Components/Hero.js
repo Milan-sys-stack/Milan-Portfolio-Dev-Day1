@@ -66,7 +66,7 @@ export const Hero = () => {
         {/* This is for image */}
         <div className="container">
           <div className="row mt-1 py-3">
-            <div className="col-md-6 custom-row">
+            <div className="col-md-6 col-12 custom-row">
               <img
                 src="assets/my.png"
                 width="80%"
@@ -76,7 +76,7 @@ export const Hero = () => {
             </div>
 
             {/* This is for paragraph */}
-            <div className="col-md-6 order-md-2 font-weight-bold display-6 justify-content-center">
+            <div className="col-md-6 col-12 order-md-2 font-weight-bold display-6 justify-content-center">
               <TypeAnimation
                 style={{ whiteSpace: 'pre-line', height: '255px', display: 'block' }}
                 sequence={[
