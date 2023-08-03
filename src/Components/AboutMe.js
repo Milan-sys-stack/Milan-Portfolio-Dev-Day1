@@ -6,11 +6,20 @@ export const AboutMe = () => {
           <span>About Me</span>
         </div>
         <div className="row">
-          <div className="col-md-5 mb-5">
-            <img src="assets/my.png" alt="my" width="100%" />
+          <div className="col-md-6 mb-5">
+            
+            <video src="assets/Aboutme.mp4" alt="my" width="100%" />
           </div>
-          <div className="col-md-7">
+          <div className="col-md-6 align-item-center">
             <p>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid,
               sapiente? Id quibusdam illo ipsam dignissimos, distinctio suscipit
               veniam? Facere beatae nisi cupiditate eos harum praesentium

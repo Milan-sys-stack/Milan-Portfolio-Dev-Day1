@@ -6,6 +6,16 @@
   /*background: linear-gradient(to right, #de6161, #2657eb);*/
 }
 
+
+  .navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+
+.nav-item{
+  font-weight: bold;
+}
+
 .custom-row{
   display: flex;
   justify-content: space-between;
@@ -80,7 +90,7 @@
 
 /* contact me section */
 .contact {
-  background: rgba(117, 221, 79, 0.62);
+  background: #8C52FF;
 }
 
 /* up button  */
