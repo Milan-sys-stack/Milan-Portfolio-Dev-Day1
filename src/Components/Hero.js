@@ -1,5 +1,4 @@
 import React from 'react';
-import { MenuItem } from './MenuItem.js';
 import {ResumeDownloadButton} from './ResumeDownloadButton.js';
 import { TypeAnimation } from 'react-type-animation';
 

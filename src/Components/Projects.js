@@ -5,12 +5,12 @@ export const Projects = () => {
 
     return (
         <> 
-     <div id="projects" className="projects py-3">
-        <div className="container">
+     <div id="projects" className="projects py-5">
+        <div className="container py-2 ">
           <div className="title">
-            <span><p style={Projectstyles}>Projects</p></span>
+            <p style={Projectstyles}>Projects</p>
           </div>
-          <div className="row mb-5">
+          <div className="row mb-3">
             <div className="col-md mb-3">
               <img src="assets/aa.png" alt="project a" width="100%" />
             </div>

@@ -12,8 +12,8 @@ export const Skills = () => {
 
     return (
         <> 
-         <div id="skills" className="container py-4 mt-5 mb-5">
-         <div className="title">
+         <div id="skills" className="container py-5 mb-2 ">
+         <div className="title py-2">
               <span>Skills</span>
             </div>
 
